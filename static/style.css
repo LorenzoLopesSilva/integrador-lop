@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(8, 0, 124);
+    color:aliceblue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabela{
+    margin: 20px;
+    border: solid 2px ;
+    padding: 20px;
+    border-collapse: collapse;
+
+}
+
+.tabela td{
+    border: solid 2px black;
+    margin: 0px;
+    padding: 2px;
+    
+}
+.tabela th{
+    border-style: solid;
+    padding: 5px;
+}
+.icone{
+    height: 10px;
+    width: 10px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: rgb(0, 190, 0);
+}
+
+.yellow{
+    background-color: rgb(255, 238, 0);
+}
