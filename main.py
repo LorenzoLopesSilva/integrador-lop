@@ -4,10 +4,6 @@ from flask import render_template, Flask
 
 df = pd.read_csv('LOPAL-ProjetoIntegrador-Esp8266_Receiver.csv')
 
-print(df.to_numpy())
-for i in df.to_numpy():
-    print(i)
-
 tabela = df.to_numpy()[::-1]
 
 app = Flask(__name__)
